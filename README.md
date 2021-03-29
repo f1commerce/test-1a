@@ -7,13 +7,15 @@
 - Estrutura de requisições de envio em json
 ### Endpoints requisitados, e link com exemplo de dados response/request:
 - Consulta de produto:
-[GET produtos](get_produtos)
+[GET produtos](https://github.com/f1commerce/test-1a/wiki/get_produtos)
 - Criação de produto:
-[POST produtos](post_produtos)
+[POST produtos](https://github.com/f1commerce/test-1a/wiki/post_produtos)
 - Alteração de estoque:
-[PUT produtos](put_estoque)
+[PUT produtos](https://github.com/f1commerce/test-1a/wiki/put_estoque)
 - Consulta de estoque:
-[GET produtos](get_estoque)
+[GET produtos](https://github.com/f1commerce/test-1a/wiki/get_estoque)
+- Exemplos de retorno sucesso/erro:
+[mensagens de retorno](https://github.com/f1commerce/test-1a/wiki/mensagens)
 
 ### Opcional:
 - Implementar autenticação Ex: Basic auth, jwt, ...

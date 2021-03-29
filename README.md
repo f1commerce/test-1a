@@ -1,4 +1,20 @@
 # test-1a
+Dada a estrutura de banco de dados abaixo, crie uma consulta sql que permita a geração de um relatório de produtos a partir dos parâmetros de pesquisa a seguir:
+1. Palavra chave: Deve ser usada para comparação no nome do produto, no código ou em qualquer valor de campo adicional do produto. Ex: azul
+2. Preço: 500.00. Produto deve ser listado no relatório se o preço for menor ou igual ao valor.
+3. Estoque: produto deve ser listado no relatório se possui estoque maior que 0 em qualquer depósito
+
+O relatório deve possuir as seguintes colunas:
+1. Id do produto
+2. Código do produto
+3. Nome do produto
+4. Preço do produto
+5. Soma dos estoques positivos do produto
+
+Duas variações da consulta devem ser feitas em relação à ordenação:
+1. Ordenado por nome ascendentemente
+2. Ordenado por soma de estoque positivo descendentemente
+
 # test-2a
 ### Criar API para consumo e inserção de dados utilizando a base de dados da questão 1(test-1a) como referência.
 ### Requisitos:

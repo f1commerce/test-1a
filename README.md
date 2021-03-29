@@ -1,5 +1,5 @@
 # test-1a
-Dada a estrutura de banco de dados abaixo, crie uma consulta sql que permita a geração de um relatório de produtos a partir dos parâmetros de pesquisa a seguir:
+Dada a estrutura de banco de dados no repositório na extensão ".sql", crie uma consulta sql que permita a geração de um relatório de produtos a partir dos parâmetros de pesquisa a seguir:
 1. Palavra chave: Deve ser usada para comparação no nome do produto, no código ou em qualquer valor de campo adicional do produto. Ex: azul
 2. Preço: 500.00. Produto deve ser listado no relatório se o preço for menor ou igual ao valor.
 3. Estoque: produto deve ser listado no relatório se possui estoque maior que 0 em qualquer depósito

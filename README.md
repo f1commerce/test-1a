@@ -15,6 +15,23 @@ Duas variações da consulta devem ser feitas em relação à ordenação:
 1. Ordenado por nome ascendentemente
 2. Ordenado por soma de estoque positivo descendentemente
 
+## Iniciando ambiente
+Para iniciar um mysql local utilizando docker (ou utilize seu MySQL próprio ou WAMP):
+```bash
+docker run --detach -it --name mysql \
+ --env MYSQL_ALLOW_EMPTY_PASSWORD=1 \
+ --env MYSQL_ROOT_PASSWORD="" \
+ --publish 3306:3306 \
+   mysql:5.6
+```
+
+Para conectar ao DB do docker do seu Host:
+```
+Host: 172.17.0.1
+Porta: 3306
+```
+
+
 # test-2a
 ### Criar API para consumo e inserção de dados utilizando a base de dados da questão 1(test-1a) como referência.
 ### Requisitos:

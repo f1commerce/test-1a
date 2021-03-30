@@ -1,4 +1,4 @@
-# test-1a
+# Desafio 1a
 Dada a estrutura de banco de dados no repositório no arquivo "db.sql", crie uma consulta sql que permita a geração de um relatório de produtos a partir dos parâmetros de pesquisa a seguir:
 1. Palavra chave: Deve ser usada para comparação no nome do produto, no código ou em qualquer valor de campo adicional do produto. Ex: azul
 2. Preço: 500.00. Produto deve ser listado no relatório se o preço for menor ou igual ao valor.
@@ -15,7 +15,7 @@ Duas variações da consulta devem ser feitas em relação à ordenação:
 1. Ordenado por nome ascendentemente
 2. Ordenado por soma de estoque positivo descendentemente
 
-## Iniciando ambiente
+#### Iniciando ambiente
 Para iniciar um mysql local utilizando docker (ou utilize seu MySQL próprio ou WAMP):
 ```bash
 docker run --detach -it --name mysql \
@@ -32,7 +32,7 @@ Porta: 3306
 ```
 
 
-# test-2a
+# Desafio 1b
 ### Criar API para consumo e inserção de dados utilizando a base de dados da questão 1(test-1a) como referência.
 ### Requisitos:
 - Codificar em PHP ou NodeJs 

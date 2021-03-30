@@ -15,6 +15,8 @@ Duas variações da consulta devem ser feitas em relação à ordenação:
 1. Ordenado por nome ascendentemente
 2. Ordenado por soma de estoque positivo descendentemente
 
+OBS: A entrega esperada é em formato SQL com as queries para execução. Organize como desejar em 1 arquivo .sql ou em arquivos separados para cada consulta.
+
 #### Iniciando ambiente
 Para iniciar um mysql local utilizando docker (ou utilize seu MySQL próprio ou WAMP):
 ```bash

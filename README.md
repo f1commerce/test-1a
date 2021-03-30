@@ -35,7 +35,7 @@ Porta: 3306
 
 
 # Desafio 1b
-### Criar API para consumo e inserção de dados utilizando a base de dados da questão 1(test-1a) como referência.
+### Criar API para consumo e inserção de dados utilizando a base de dados da questão 1a como referência.
 ### Requisitos:
 - Codificar em PHP ou NodeJs 
 - Frameworks ou Core: A sua escolha

@@ -42,15 +42,15 @@ Porta: 3306
 - Estrutura de requisições de envio em json
 ### Endpoints requisitados, e link com exemplo de dados response/request:
 - Consulta de produto:
-[GET produtos](https://github.com/f1commerce/test-1a/wiki/get_produtos)
+[GET produtos](https://github.com/f1commerce/teste-back-n2/wiki/get_produtos)
 - Criação de produto:
-[POST produtos](https://github.com/f1commerce/test-1a/wiki/post_produtos)
+[POST produtos](https://github.com/f1commerce/teste-back-n2/wiki/post_produtos)
 - Alteração de estoque:
-[PUT produtos](https://github.com/f1commerce/test-1a/wiki/put_estoque)
+[PUT produtos](https://github.com/f1commerce/teste-back-n2/wiki/put_estoque)
 - Consulta de estoque:
-[GET produtos](https://github.com/f1commerce/test-1a/wiki/get_estoque)
+[GET produtos](https://github.com/f1commerce/teste-back-n2/wiki/get_estoque)
 - Exemplos de retorno sucesso/erro:
-[mensagens de retorno](https://github.com/f1commerce/test-1a/wiki/mensagens)
+[mensagens de retorno](https://github.com/f1commerce/teste-back-n2/wiki/mensagens)
 
 ### Opcional:
 - Implementar autenticação Ex: Basic auth, jwt, ...

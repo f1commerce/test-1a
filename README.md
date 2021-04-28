@@ -1,4 +1,7 @@
 # Desafio Backend N2
+
+# Parte 1
+
 Dada a estrutura de banco de dados no repositório no arquivo "db.sql", crie uma consulta sql que permita a geração de um relatório de produtos a partir dos parâmetros de pesquisa a seguir:
 1. Palavra chave: Deve ser usada para comparação no nome do produto, no código ou em qualquer valor de campo adicional do produto. Ex: azul
 2. Preço: 500.00. Produto deve ser listado no relatório se o preço for menor ou igual ao valor.
@@ -34,7 +37,7 @@ Porta: 3306
 ```
 
 
-# Desafio 1b
+# Parte 2
 ### Criar API para consumo e inserção de dados utilizando a base de dados da questão 1a como referência.
 ### Requisitos:
 - Codificar em PHP ou NodeJs 

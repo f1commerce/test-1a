@@ -59,5 +59,6 @@ Porta: 3306
 - Implementar autenticação Ex: Basic auth, jwt, ...
 
 
+## OBS
 Quando finalizar o teste, enviar num arquivo .zip a aplicação criada e o banco de dados exportado.
 Se não conseguir fazer algum dos itens requiridos, envie o teste mesmo assim, faça o máximo que puder e bom trabalho!
